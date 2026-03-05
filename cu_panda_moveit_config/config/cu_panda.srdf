@@ -12,6 +12,9 @@
     <group name="arm">
         <chain base_link="panda_link0" tip_link="panda_hand_tcp"/>
     </group>
+    <group name="arm_local">
+        <chain base_link="panda_link0" tip_link="panda_hand_tcp"/>
+    </group>
     <group name="gripper">
         <joint name="panda_finger_joint1"/>
         <joint name="panda_finger_joint2"/>
