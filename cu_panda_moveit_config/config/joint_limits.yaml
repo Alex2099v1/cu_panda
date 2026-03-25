@@ -10,12 +10,12 @@ default_acceleration_scaling_factor: 0.1
 joint_limits:
   panda_finger_joint1:
     has_velocity_limits: true
-    max_velocity: 0.10000000000000001
+    max_velocity: 0.02000000000000001
     has_acceleration_limits: false
     max_acceleration: 0
   panda_finger_joint2:
     has_velocity_limits: true
-    max_velocity: 0.10000000000000001
+    max_velocity: 0.02000000000000001
     has_acceleration_limits: false
     max_acceleration: 0
   panda_joint1:
