@@ -53,6 +53,75 @@
     </collision>
   </link>
 
+
+
+  <link name="intermediate_space_1">
+    <visual>
+      <geometry>
+        <box size="0.07 0.07 0.05"/>
+      </geometry>
+      <material name="orange">
+        <color rgba="1.0 0.5 0.0 0.5"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="intermediate_space_joint_1" type="fixed">
+    <child link="intermediate_space_1"/>
+    <parent link="table_top"/>
+    <origin xyz="0.2 -0.035 0" rpy="0 0 0"/>
+  </joint>
+
+    <link name="intermediate_space_2">
+    <visual>
+      <geometry>
+        <box size="0.07 0.07 0.05"/>
+      </geometry>
+      <material name="orange">
+        <color rgba="1.0 0.5 0.0 0.5"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="intermediate_space_joint_2" type="fixed">
+    <child link="intermediate_space_2"/>
+    <parent link="table_top"/>
+    <origin xyz="0.2 0.035 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="intermediate_space_3">
+    <visual>
+      <geometry>
+        <box size="0.07 0.07 0.05"/>
+      </geometry>
+      <material name="orange">
+        <color rgba="1.0 0.5 0.0 0.5"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="intermediate_space_joint_3" type="fixed">
+    <child link="intermediate_space_3"/>
+    <parent link="table_top"/>
+    <origin xyz="0.27 -0.035 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="intermediate_space_4">
+    <visual>
+      <geometry>
+        <box size="0.07 0.07 0.05"/>
+      </geometry>
+      <material name="orange">
+        <color rgba="1.0 0.5 0.0 0.5"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="intermediate_space_joint_4" type="fixed">
+    <child link="intermediate_space_4"/>
+    <parent link="table_top"/>
+    <origin xyz="0.27 0.035 0" rpy="0 0 0"/>
+  </joint>
+
+
+
+
   <joint name="mounting_table_joint" type="fixed">
     <child link="panda_mounting_plate"/>
     <parent link="table"/>
