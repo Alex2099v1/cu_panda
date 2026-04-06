@@ -68,7 +68,7 @@
   <joint name="intermediate_space_joint_1" type="fixed">
     <child link="intermediate_space_1"/>
     <parent link="table_top"/>
-    <origin xyz="0.2 -0.035 0" rpy="0 0 0"/>
+    <origin xyz="0.17 -0.037 0" rpy="0 0 0"/>
   </joint>
 
     <link name="intermediate_space_2">
@@ -84,7 +84,7 @@
   <joint name="intermediate_space_joint_2" type="fixed">
     <child link="intermediate_space_2"/>
     <parent link="table_top"/>
-    <origin xyz="0.2 0.035 0" rpy="0 0 0"/>
+    <origin xyz="0.17 0.037 0" rpy="0 0 0"/>
   </joint>
 
   <link name="intermediate_space_3">
@@ -100,7 +100,7 @@
   <joint name="intermediate_space_joint_3" type="fixed">
     <child link="intermediate_space_3"/>
     <parent link="table_top"/>
-    <origin xyz="0.27 -0.035 0" rpy="0 0 0"/>
+    <origin xyz="0.25 -0.037 0" rpy="0 0 0"/>
   </joint>
 
   <link name="intermediate_space_4">
@@ -116,7 +116,7 @@
   <joint name="intermediate_space_joint_4" type="fixed">
     <child link="intermediate_space_4"/>
     <parent link="table_top"/>
-    <origin xyz="0.27 0.035 0" rpy="0 0 0"/>
+    <origin xyz="0.25 0.037 0" rpy="0 0 0"/>
   </joint>
 
 
