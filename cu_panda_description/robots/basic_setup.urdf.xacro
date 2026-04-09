@@ -68,7 +68,7 @@
   <joint name="intermediate_space_joint_1" type="fixed">
     <child link="intermediate_space_1"/>
     <parent link="table_top"/>
-    <origin xyz="0.16 -0.038 0" rpy="0 0 0"/>
+    <origin xyz="0.15 -0.175 0" rpy="0 0 0"/>
   </joint>
 
     <link name="intermediate_space_2">
@@ -84,7 +84,7 @@
   <joint name="intermediate_space_joint_2" type="fixed">
     <child link="intermediate_space_2"/>
     <parent link="table_top"/>
-    <origin xyz="0.16 0.038 0" rpy="0 0 0"/>
+    <origin xyz="0.15 -0.10 0" rpy="0 0 0"/>
   </joint>
 
   <link name="intermediate_space_3">
@@ -100,7 +100,7 @@
   <joint name="intermediate_space_joint_3" type="fixed">
     <child link="intermediate_space_3"/>
     <parent link="table_top"/>
-    <origin xyz="0.24 -0.038 0" rpy="0 0 0"/>
+    <origin xyz="0.15 -0.025 0" rpy="0 0 0"/>
   </joint>
 
   <link name="intermediate_space_4">
@@ -109,14 +109,14 @@
         <box size="0.07 0.07 0.05"/>
       </geometry>
       <material name="orange">
-        <color rgba="1.0 0.5 0.0 0.5"/>
+        <color rgba="1.0 0.6 0.0 0.5"/>
       </material>
     </visual>
   </link>
   <joint name="intermediate_space_joint_4" type="fixed">
     <child link="intermediate_space_4"/>
     <parent link="table_top"/>
-    <origin xyz="0.24 0.038 0" rpy="0 0 0"/>
+    <origin xyz="0.15 0.05 0" rpy="0 0 0"/>
   </joint>
 
 
