@@ -68,7 +68,7 @@
   <joint name="intermediate_space_joint_1" type="fixed">
     <child link="intermediate_space_1"/>
     <parent link="table_top"/>
-    <origin xyz="0.15 -0.175 0" rpy="0 0 0"/>
+    <origin xyz="0.17 -0.175 0" rpy="0 0 0"/>
   </joint>
 
     <link name="intermediate_space_2">
@@ -84,7 +84,7 @@
   <joint name="intermediate_space_joint_2" type="fixed">
     <child link="intermediate_space_2"/>
     <parent link="table_top"/>
-    <origin xyz="0.15 -0.10 0" rpy="0 0 0"/>
+    <origin xyz="0.17 -0.10 0" rpy="0 0 0"/>
   </joint>
 
   <link name="intermediate_space_3">
@@ -100,7 +100,7 @@
   <joint name="intermediate_space_joint_3" type="fixed">
     <child link="intermediate_space_3"/>
     <parent link="table_top"/>
-    <origin xyz="0.15 -0.025 0" rpy="0 0 0"/>
+    <origin xyz="0.17 -0.025 0" rpy="0 0 0"/>
   </joint>
 
   <link name="intermediate_space_4">
@@ -116,7 +116,7 @@
   <joint name="intermediate_space_joint_4" type="fixed">
     <child link="intermediate_space_4"/>
     <parent link="table_top"/>
-    <origin xyz="0.15 0.05 0" rpy="0 0 0"/>
+    <origin xyz="0.17 0.05 0" rpy="0 0 0"/>
   </joint>
 
 
@@ -125,7 +125,7 @@
   <joint name="mounting_table_joint" type="fixed">
     <child link="panda_mounting_plate"/>
     <parent link="table"/>
-    <origin xyz="${-0.35+0.16} ${-0.537+0.04+0.108} 0.026" rpy="0 0 0"/>
+    <origin xyz="${-0.35+0.16} ${-0.537+0.04+0.108} 0.027" rpy="0 0 0"/>
   </joint>
 
   <link name="table_top"/>
@@ -133,7 +133,7 @@
   <joint name="table_top_joint" type="fixed">
     <child link="table_top"/>
     <parent link="table"/>
-    <origin xyz="0 0 0.026" rpy="0 0 0"/>
+    <origin xyz="0 0 0.027" rpy="0 0 0"/>
   </joint>
 
   <link name="window_collider">
@@ -203,7 +203,7 @@
     <parent link="table"/>
     <origin xyz="${-0.35-0.095} 0 ${0.026}" rpy="0 0 0"/>
   </joint>
-
+ <!-- # -0.353; 0.48923; 0.3458 -->
   <link name="realsense_link">
     <collision>
       <geometry>
@@ -215,7 +215,7 @@
   <joint name="realsense_table_joint" type="fixed">
     <child link="realsense_link"/>
     <parent link="table"/>
-    <origin xyz="-0.34866 0.48523 0.34558" rpy="-2.9583 2.6983 2.2201"/>
+    <origin xyz="-0.360 0.490 0.342" rpy="0.192 0.436 -0.908"/>
   </joint>
 
   <xacro:macro name="fingertip" params="side *origin">
