@@ -215,7 +215,7 @@
   <joint name="realsense_table_joint" type="fixed">
     <child link="realsense_link"/>
     <parent link="table"/>
-    <origin xyz="-0.359 0.488 0.344" rpy="0.192 0.436 -0.908"/>
+    <origin xyz="-0.368 0.490 0.340" rpy="0.194 0.426 -0.899"/>
   </joint>
 
   <xacro:macro name="fingertip" params="side *origin">
